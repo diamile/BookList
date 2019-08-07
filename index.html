@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Checkout example · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/checkout/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <style>
+  .container{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+      border:1px solid gray;
+      width:90%;
+     margin:0 auto;
+  }
+
+  .form{
+      width:400px;
+      display:table;
+      margin:0 auto;
+  }
+
+  #img{
+      width:90%;
+      height:200px;
+      border-radius: 5px;
+      display:table;
+      margin:0 auto;
+      margin-bottom:10px;
+  }
+  
+  @media screen and(max-width:991px){
+    #img{
+      width:90%;
+      height:200px;
+      border-radius: 5px;
+      display:table;
+      margin:0 auto;
+      margin-bottom:10px;
+  }
+
+  #table{
+    width:90%;
+      display:table;
+      margin:0 auto;
+  }
+  form{
+      width:90%;
+      
+  }
+  }
+  #button{
+      display:table;
+      margin:0 auto;
+  }
+  #close{
+      height:25px;
+      width:25px;
+      background-color: red;
+      color:white;
+  }
+  #danger{
+      background-color:red;
+      color:white;
+      width:80%;
+      height:30px;
+      display:table;
+      margin:0 auto;
+  }
+  #success{
+    background-color:green;
+      color:white;
+      width:80%;
+      height:30px;
+      display:table;
+      margin:0 auto;
+  }
+  #headerContent{
+      margin-top:10px;
+      max-width:400px;
+  }
+  #valueInput{
+      width:90%;
+      display:table;
+      margin:0 auto;
+  }
+  #container{
+      background-color:lightskyblue;
+      max-width:400px;
+      display:table;
+      margin:0 auto;
+      height:700px;
+  }
+  #table{
+    width:90%;
+      display:table;
+      margin:0 auto;
+  }
+  form{
+      width:100%;
+      
+  }
+
+  form input{
+    display:table;
+    margin:0 auto;
+  }
+  .form{
+      width:100%;
+  }
+  </style>
+
+  <body>
+      <div id="container">
+
+      <div id="headerContent">
+          <img src="images/img.jpg" id="img"/>
+      </div>
+   <div class="form">
+       <form>
+       
+       <input type="text" id="title" size="38" /><br>
+      
+       <input type="text" id="name" size="38"/><br>
+      
+       <input type="textarea" id="message" size="38"/><br><br>
+       <input type="submit"  value="Envoyer" id="button" class="btn btn-primary"/>
+       </form>
+   </div><br>
+
+   <div id="valueInput" >
+    <div id="table" style='border:1px solid gray;display:flex;flex-direction:row;justify-content:space-between'>
+        <span>name</span>
+        <span>prenom</span>
+        <span>age</span>
+    </div>
+
+   </div>
+</div>
+   <script src='./app.js'></script>
+  </body>
+
+  </html>
